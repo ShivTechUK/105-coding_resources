@@ -1,20 +1,24 @@
 /****** BASE STYLES ******/
+    .color-1 {color: #7abfc8;}
+    .color-2 {color: #aa7ac8;}
+    .color-3 {color: #c8837a;}
+    .color-4 {color: #98c87a;}
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #2b2b2b;
+    color: 
     font-size: 16px;
 }
 
 a {
     text-decoration: none;
-    color: #521818;
+    color: #ffffff;
     cursor: pointer;
     display: block;
 }
 
 a:hover {
-    color: #7a2424;
+    colo
 }
 
 img {
@@ -32,6 +36,12 @@ h4 {
     margin: 0 auto;
     overflow: auto;
 }
+.half-width {
+    width: 45%;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
 
 /****** Header ******/
 
@@ -43,7 +53,7 @@ header {
 }
 
 .top-header {
-    background-color: #7a2424;
+    background-color:#7abfc8;
 }
 
 header .full-width {
@@ -56,12 +66,12 @@ header h1 {
     padding: 15px 0;
     font-family: 'Merriweather', serif;
     font-size: 1.8em;
-    color: #f1e0cb;
+    color:
     text-align: center;
 }
 
 header h1 a {
-    color: #f1e0cb;
+    color: #98c87a;
     text-decoration: none;
 }
 
@@ -86,7 +96,7 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1em;
-    color: #f1e0cb;
+    color: #ffffff;
 }
 
 header h2 {
@@ -106,7 +116,7 @@ header h2 span {
 /****** Resources ******/
 
 #resources {
-    background-color: #ebd6d1;
+    background-color: #aa7ac8;
     text-align: center;
 }
 
@@ -136,6 +146,7 @@ header h2 span {
 
 #resources li {
     font-family: 'Merriweather', serif;
+    color: #ffffff;
     font-size: 18px;
     line-height: 30px;
     list-style: none;
@@ -144,7 +155,7 @@ header h2 span {
 /****** Contact ******/
 
 #contact {
-    background-color: #ebebeb;
+    background-color: ;
     text-align: center;
     padding: 50px 0 0 0;
 }
@@ -161,7 +172,7 @@ header h2 span {
 
 #contact a {
     text-decoration: none;
-    color: #d89482;
+    color: ;
     font-weight: bold;
     font-size: 28px;
 }
@@ -182,14 +193,14 @@ header h2 span {
 }
 
 .credit {
-    color: #9c9797;
+    color: ;
     font-size: 0.8em;
 }
 
 /****** About ******/
 
 #about {
-    background-color: #ebd6d1;
+    background-color: ;
 }
 
 #about .full-width {
